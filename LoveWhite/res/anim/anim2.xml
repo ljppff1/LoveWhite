@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"    
+android:oneshot="true">    
+<item android:drawable="@drawable/matching_open1" android:duration="15" />    
+<item android:drawable="@drawable/matching_open2" android:duration="15" />    
+<item android:drawable="@drawable/matching_open3" android:duration="15" />   
+<item android:drawable="@drawable/matching_open4" android:duration="15" />   
+<item android:drawable="@drawable/matching_open5" android:duration="15" />   
+<item android:drawable="@drawable/matching_open6" android:duration="15" />   
+<item android:drawable="@drawable/matching_open7" android:duration="15" />   
+<item android:drawable="@drawable/matching_open8" android:duration="15" />   
+<item android:drawable="@drawable/matching_open9" android:duration="15" />   
+<item android:drawable="@drawable/matching_open10" android:duration="15" />   
+<item android:drawable="@drawable/matching_open11" android:duration="15" />    
+<item android:drawable="@drawable/matching_open12" android:duration="15" />    
+<item android:drawable="@drawable/matching_open13" android:duration="15" />    
+<item android:drawable="@drawable/matching_open14" android:duration="15" />    
+<item android:drawable="@drawable/matching_open15" android:duration="15" />    
+<item android:drawable="@drawable/matching_open16" android:duration="15" />    
+<item android:drawable="@drawable/matching_open17" android:duration="15" />    
+<item android:drawable="@drawable/matching_open18" android:duration="15" />    
+<item android:drawable="@drawable/matching_open19" android:duration="15" />    
+<item android:drawable="@drawable/matching_open15" android:duration="15" />    
+
+</animation-list>  

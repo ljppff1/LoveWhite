@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world"></string>
+	<string name="app_name">恋愛白書</string>
+	<string name="loading">正在下載</string>
+	<!--  crash - starts -->
+	<string name="CrashErrorReport_MailTo">收件人</string>
+	<string name="CrashErrorReport_MailSubject">主題</string>
+	<string name="CrashErrorReport_URL">主題</string>
+	<string name="CrashErrorReport_ToastText">主題</string>
+	<!--  crash - ends -->
+	<!--  action - starts -->
+	<string name="action_share">分享</string>
+	<string name="action_search">搜尋</string>
+	<string name="action_settings">設定</string>
+	<string name="action_refresh">刷新</string>
+	<string name="action_help">幫助</string>
+	<!--  action - ends -->
+	<!-- login - starts -->
+	<string name="hintEditUserEmail">請輸入電郵地址</string>
+	<string name="hintEditPassword">請輸入密碼</string>
+	<string name="validateCheckEmailFormat">請檢查電郵地址格式</string>
+	<string name="validateIncorrectCredential">登入資料錯誤</string>
+	<string name="exceptionCannotConnectToNetwork">網絡連線失敗！</string>
+	<string name="pleaseRetryLater">請稍後再重試。</string>
+	<string name="login">登入</string>
+	<string name="resetPassword">重設密碼</string>
+	<string name="signUpNow">立即注冊</string>
+	<string name="loginInProgress">正在登入</string>
+	<string name="loginSuccess">登入成功！</string>
+	<string name="logout">登出</string>
+	<!-- login - ends -->
+	<!-- reset password - starts -->
+	<string name="forgetPasswordElfHint">忘記密碼</string>
+	<string name="forgetPasswordInProgress">密碼重設中</string>
+	<!-- 20140807 -->
+	<string name="forgetPasswordSuccessElfHint">請檢查郵箱，輸入驗証碼，設定密碼，然後激活帳號。</string>
+	<string name="resetPasswordSuccessPleaseCheckEmail">重設密碼成功，請檢查郵箱</string>
+	<string name="forgetPasswordContinue">繼續</string>
+	<string name="hintEditPasswordTooShort">密碼不能太短</string>
+	<!-- sign up - ends -->
+	<!-- sign up - starts -->
+	<string name="signUp">注冊</string>
+	<string name="signUpElfHint">
+		<![CDATA[歡迎加入<font color="#ff00cc">恋愛白書</font>！就讓緣份牽引, 為您找出有情人! 趕快完成幾個簡單步驟, 立即開始~]]>
+	</string>
+	<string name="hintEditConfirmPassword">請確認密碼</string>
+	<string name="iAgree">您同意我們的</string>
+	<string name="pleaseAcceptOur">請接受我們的</string>
+	<string name="userTerms">使用者條款</string>
+	<string name="userTermsUnderlined">
+		<u>使用者條款</u>
+	</string>
+	<string name="privacyTerms">私隱條款</string>
+	<string name="privacyTermsUnderlined">
+		<u>私隱條款</u>
+	</string>
+	<string name="signUpInProgress">注冊進行中</string>
+	<string name="signUpSuccessElfHint">請檢查郵箱，輸入驗証碼，設定密碼，然後激活帳號。</string>
+	<string name="signUpFailEmailExistsElfHint">注冊失敗！你的電郵已經注冊！</string>
+	<string name="signin">登入</string>
+	<string name="signUpEmailExists">你的電郵已經注冊</string>
+	<!-- 20140807 -->
+	<string name="hintEditPasscode">請輸入驗証碼</string>
+	<string name="hintConfirmPasswordNotMatch">輸入密碼不符</string>
+	<string name="validateIncorrectPasscode">驗証碼錯誤</string>
+	<string name="hintEditNewPassword">請輸入新密碼</string>
+	<string name="hintEditConfirmNewPassword">請確定新密碼</string>
+	<string name="passcodeSuccess">登入成功！</string>
+	<!-- sign up - ends -->
+	<!-- profile setup basic - starts -->
+	<string name="profileSetup">個人檔案</string>
+	<string name="profileSetupBasicElfHint">請輸入以下基本資料！ 這些資料有助新朋友認識您， 也能幫助我們替您尋找匹配的對象！</string>
+	<string name="hintEditUserAlias">請輸入暱稱</string>
+	<string name="hintEditUserLocation">請選擇所在地</string>
+	<string name="hintEditUserBirthday">請輸入你的生日日期</string>
+	<string name="userBirthday">生日日期</string>
+	<string name="hintEditUserOccupation">你的工作類型是什麼？</string>
+	<string name="hintEditUserSchool">你曾就讀的學校的名字是什麼？</string>
+	<string name="male">男</string>
+	<string name="female">女</string>
+	<string name="profileSetupContinue">繼續</string>
+	<string name="uploadInProgress">正在上傳資料</string>
+	<string name="dataUploadSucceed">已成功上傳資料</string>
+	<string name="hintEditBirthdayAgeShouldBeAbove">必須年滿</string>
+	<string name="hintEditBirthdayAge">歲</string>
+	<!-- profile setup basic - ends -->
+	<!-- profile setup photos - starts -->
+	<string name="profileSetupPhotosElfHint">
+		<![CDATA[第一印象非常重要！ 快上傳能展現您吸引力的照片吧！ 每張照片將會得到<font color="#ff00cc">100 魅力</font>作獎勵！]]>
+	</string>
+	<string name="takePhoto">拍攝照片</string>
+	<string name="chooseFromGallery">選擇照片</string>
+	<string name="addPhoto">加入照片</string>
+	<string name="cancel">取消</string>
+	<string name="choosePhoto">選擇照片</string>
+	<!-- 20140807 -->
+	<string name="hintEditProfilePhotos">必須上載左上角第一張照片！</string>
+	<string name="cannotFindCropApp">找不到照片編輯工具</string>
+	<string name="chooseCropApp">選擇編輯工具</string>
+	<!-- profile setup photos - ends -->
+	<!-- 20140807 -->
+	<!-- profile setup interests - starts -->
+	<string name="profileSetupInterestsElfHint">
+		<![CDATA[<font color="#ff00cc">共同愛好</font>有助打開話匣子，也有助加深認識！ 請在下面的類別加入您的愛好成為<font color="#ff00cc">緣份標簽</font>，讓我助你尋找趣味相投的有緣人！]]>
+	</string>
+	<string name="hintEditProfileInterestsPart01">必須加入最少</string>
+	<string name="hintEditProfileInterestsPart02">個緣份楆簽</string>
+	<string name="ic_title_music">音樂</string>
+	<string name="ic_hint_music">分享你的ALL TIME FAVOURITE SONG</string>
+	<string name="ic_elfhint_music">每個人都有一個ALL TIME FAVOURITE 的 SONG LIST! 分享一下你喜愛的音樂，以歌會友！</string>
+	<string name="ic_example_music">GANGNAM STYLE</string>
+	<string name="ic_title_bteam">籃球</string>
+	<string name="ic_hint_bteam">湖人、帝王、熱火, 你最愛那一隊?</string>
+	<string name="ic_elfhint_bteam">籃球講求速度技術, 讓你看得血脈沸騰！你會是那一隊的忠實支持者?</string>
+	<string name="ic_example_bteam">熱火</string>
+	<string name="ic_title_team">足球</string>
+	<string name="ic_hint_team">作為標準球迷的你擁護的球隊</string>
+	<string name="ic_elfhint_team">隨處都可以感受到足球的魅力！英超、西甲、意甲, 甚至中超、日職聯, 有你喜歡的球隊嗎?</string>
+	<string name="ic_example_team">曼聯</string>
+	<string name="ic_title_game">電玩</string>
+	<string name="ic_hint_game">那些令你玩得過癮的電玩</string>
+	<string name="ic_elfhint_game">PS4, XBOX, PC上都有不少流行的遊戲，有那些令你玩得大呼過癮? 告訴我你最愛的電玩遊戲吧</string>
+	<string name="ic_example_game">英雄聯盟</string>
+	<string name="ic_title_travel">旅遊</string>
+	<string name="ic_hint_travel">世界這麼大, 有令你樂而忘返的旅遊點嗎</string>
+	<string name="ic_elfhint_travel">環遊世界是你的夢想吧，世界這麼大，有令你樂而忘返的旅遊點嗎? </string>
+	<string name="ic_example_travel">明洞</string>
+	<string name="ic_title_dog">愛犬之人</string>
+	<string name="ic_hint_dog">最想擁有的狗狗品種</string>
+	<string name="ic_elfhint_dog">狗狗是人類最好的朋友，告訴我那一個品種是你最喜愛的?</string>
+	<string name="ic_example_dog">金毛尋回犬</string>
+	<string name="ic_title_cat">愛貓之人</string>
+	<string name="ic_hint_cat">什麼品種的貓咪最得你的歡心?</string>
+	<string name="ic_elfhint_cat">貓咪的孤獨高傲的性格有著獨特的吸引力，什麼品種最得你的歡心?</string>
+	<string name="ic_example_cat">波絲貓</string>
+	<string name="ic_title_idol">明星偶像</string>
+	<string name="ic_hint_idol">你是誰的忠實粉絲</string>
+	<string name="ic_elfhint_idol">無數充滿魅力的明星偶像讓你尖叫歡呼，你是那幾位的忠實粉絲?</string>
+	<string name="ic_example_idol">陳奕迅</string>
+	<string name="ic_title_movie">電影</string>
+	<string name="ic_hint_movie">你心目中有那些的經典電影</string>
+	<string name="ic_elfhint_movie">電影是熱門消閒娛樂, 有那些經典作品,  至今亦令你津津樂道?</string>
+	<string name="ic_example_movie">變型金剛</string>
+	<string name="ic_title_tv">電視劇集</string>
+	<string name="ic_hint_tv">中西日韓的劇集,你追看過那幾部?</string>
+	<string name="ic_elfhint_tv">中西日韓的電視劇集, 各有特色風格, 各有令人迷上的理由, 你又追看過那幾部?</string>
+	<string name="ic_example_tv">來自星星的你</string>
+	<string name="ic_title_sport">運動</string>
+	<string name="ic_hint_sport">助你鍛鍊強健體魄的活動</string>
+	<string name="ic_elfhint_sport">運動不但強身健體, 亦是生活態度, 你是那些運動的爱好者?</string>
+	<string name="ic_example_sport">跑步</string>
+	<string name="ic_title_bar">CLUBBING</string>
+	<string name="ic_hint_bar">喜愛夜蒲的你最常到的夜店</string>
+	<string name="ic_elfhint_bar">嚮往夜生活, 沉醉在美酒和充滿音樂的氣氛中, 也是一種享受, 那些是你常到的夜店?</string>
+	<string name="ic_example_bar">MUSE</string>
+	<string name="ic_title_restaurant">餐廳</string>
+	<string name="ic_hint_restaurant">你經常光顧, 或一試難忘的餐廳</string>
+	<string name="ic_elfhint_restaurant">由高級餐廳到街頭食檔, 地道口味到各地美食, 分享你經常光顧或一試難忘的餐廳吧</string>
+	<string name="ic_example_restaurant">JAMIE\'S ITALIAN</string>
+	<string name="ic_title_instrument">樂器</string>
+	<string name="ic_hint_instrument">隨手就可彈奏一曲的樂器</string>
+	<string name="ic_elfhint_instrument">音樂不但是藝術, 也反映你的生活品味, 告訴我你有那些擅長的樂器吧</string>
+	<string name="ic_example_instrument">結他</string>
+	<string name="ic_title_goal">目標</string>
+	<string name="ic_hint_goal">你心裡最希望達成的事</string>
+	<string name="ic_elfhint_goal">沒有夢想, 跟鹹魚一樣, 一人總有一個人生目標吧, 分享你心裡最希望達成的事</string>
+	<string name="ic_example_goal">減肥</string>
+	<string name="ic_title_book">流行讀物</string>
+	<string name="ic_hint_book">有那些令你廢寢忘餐追看的作品</string>
+	<string name="ic_elfhint_book">愛情、懸疑、推理, 各式各樣的流行讀物, 有那些是你廢寢忘餐追看的作品?</string>
+	<string name="ic_example_book">哈利波特</string>
+	<string name="ic_title_app">Apps</string>
+	<string name="ic_hint_app">你手機裡必備的應用</string>
+	<string name="ic_elfhint_app">手機APPS 林林總總, 工具社交通訊音樂不可或缺, 那些是你必備的應用?</string>
+	<string name="ic_example_app">淘寶</string>
+	<string name="ic_title_cartoon">動漫</string>
+	<string name="ic_hint_cartoon">One Piece, Dragon Ball, 聖鬥士星矢, 會是你最愛的動漫嗎?</string>
+	<string name="ic_elfhint_cartoon">看動漫不只是最佳的消閒活動, 更有陪伴我們成長記憶, 分享一下你最愛的動漫吧</string>
+	<string name="ic_example_cartoon">海賊王</string>
+	<string name="ic_title_brand">潮流品牌</string>
+	<string name="ic_hint_brand">走在時代尖端的你最愛的潮流品牌</string>
+	<string name="ic_elfhint_brand">滿身都是潮流品牌的你, 散發出與別不同的個性, 告訴我那些是你情有獨鍾的品牌?</string>
+	<string name="ic_example_brand">NIKE</string>
+	<!-- profile setup interests - ends -->
+	<!-- 20140807 -->
+	<!-- add interest - starts -->
+	<string name="addYourFavorite">加入你的愛好於</string>
+	<string name="hitFavorite">熱門：</string>
+	<string name="noOtherUsersLike">未有用戶喜歡</string>
+	<string name="doYouStillWantToAddThisAsYourFavorite">要加入這愛好成為新的緣份標簽嗎？</string>
+	<string name="forExample">例如：</string>
+	<!-- add interest - ends -->
+	<!-- profile - starts -->
+	<string name="profile">個人檔案</string>
+	<string name="loveView">愛情觀</string>
+	<string name="userAlias">暱稱</string>
+	<string name="userGender">性別</string>
+	<string name="userAge">年齡</string>
+	<string name="userOccupation">職業</string>
+	<string name="userHoroscope">星座</string>
+	<string name="userLocation">所在地</string>
+	<string name="interest">愛好</string>
+	<string name="contact">聯絡</string>
+	<string name="endorsement">評價</string>
+	<string name="charisma">魅力</string>
+	<string name="stamina">行動力</string>
+	<string name="friend">朋友</string>
+	<string name="confidate">知己</string>
+	<string name="lover">戀人</string>
+	<!-- profile - ends -->
+	<!-- conversation - starts -->
+	<string name="conversation">聊天室</string>
+	<!-- conversation - ends -->
+	<!-- people - starts -->
+	<string name="people">人物</string>
+	<!-- people - ends -->
+	<!-- 20140811 -->
+	<string name="hintSpinnerCountry">請輸入所在國家</string>
+	<string name="hintSpinnerRegion">請輸入所在地區</string>
+	<string name="hintSpinnerOccupation">你的工作類型是什麼？</string>
+	<string name="stdCountriesLoadingInProgress">正在更新資料</string>
+	<string name="stdCountriesLoadingRetry">網絡連線失敗！正在重試資料</string>
+	<string name="stdRegionsLoadingInProgress">正在更新地區資料</string>
+	<string name="stdRegionsLoadingRetry">網絡連線失敗！正在重試更新地區資料</string>
+	<string name="stdOccupationsLoadingInProgress">正在更新工作類型資料</string>
+	<string name="stdOccupationsLoadingRetry">網絡連線失敗！正在重試更新工作類型資料</string>
+	<string name="country_name_hk">香港</string>
+	<string name="occupation_name_141">Hotel and restaurant managers</string>
+	<string name="occupation_name_222">Nursing and midwifery professionals</string>
+	<string name="occupation_name_252">Database and network professionals</string>
+	<string name="occupation_name_322">Nursing and midwifery associate professionals</string>
+	<string name="occupation_name_342">
+
+
+
+
+
+
+
+
+Sports and fitness workers																		<string name="occupation_name_513">Waiters and bartenders</string>
+	</string>
+	<string name="occupation_name_622">
+
+
+
+
+
+
+
+
+Fishery workers, hunters and trappers																		<string name="stdInterestCategoryLoadingInProgress">正在更新緣份標簽</string>
+	</string>
+	<string name="action_done">完成</string>
+	<string name="hintEditInterestTitle">請輸入你的愛好</string>
+	<string name="insertInterestInProgress">正在加入緣份標簽</string>
+	<!-- 20140817 -->
+	<string name="profilesetup_capricorn">山羊座</string>
+	<string name="profilesetup_aquarius">水瓶座</string>
+	<string name="profilesetup_pisces">雙魚座</string>
+	<string name="profilesetup_aries">白羊座</string>
+	<string name="profilesetup_taurus">金牛座</string>
+	<string name="profilesetup_gemini">雙子座</string>
+	<string name="profilesetup_cancer">巨蟹座</string>
+	<string name="profilesetup_leo">獅子座</string>
+	<string name="profilesetup_virgo">處女座</string>
+	<string name="profilesetup_libra">天秤座</string>
+	<string name="profilesetup_scorpio">天蠍座</string>
+	<string name="profilesetup_sagit">人馬座</string>
+	<string name="sampleUserAlias">~~~</string>
+	<string name="sampleUserAge">--</string>
+	<string name="sampleUserHoroscope">---</string>
+	<string name="sampleUserCountry">---</string>
+	<string name="sampleUserRegion">---</string>
+	<string name="sampleUserCharisma">000</string>
+	<string name="sampleUserMobility">000</string>
+	<string name="sampleUserNoOfFriends">000</string>
+	<string name="dot">.</string>
+	<string name="action_logout">登出</string>
+	<string name="editContactItems">連繫</string>
+	<string name="editContactItemsElfHint">
+		<![CDATA[輸入個人的社交連繫方法，透過互相送贈<font color="#ff00cc">四葉草</font>表達互有好感的心意, 即可獲得對方的連繫資料, 直接聯絡！]]>
+	</string>
+	<string name="editContactFacebook">Facebook</string>
+	<string name="editContactLine">LINE</string>
+	<string name="editContactWeChat">微信</string>
+	<string name="editContactWhatsApp">WhatsApp</string>
+	<string name="editContactKakaoTalk">Kakao Talk</string>
+	<string name="editContactQQ">QQ</string>
+	<string name="editContactWeibo">微博</string>
+	<string name="editContactInstagram">Instagram</string>
+	<string name="uploadContactItemsInProgress">正在更新社交連繫</string>
+	<!-- 20140910 -->
+	<string name="exceptionCannotConnectToServer">網絡連線失敗！</string>
+	<string name="exceptionNetworkTooSlow">網絡連線失敗！</string>
+	<string name="validateEmailTooLong">電郵地址過長！</string>
+	<string name="hintEditPasswordTooLong">密碼不能太長！</string>
+	<string name="saveData">保存</string>
+	<string name="ic_title_color">(title)color</string>
+	<string name="ic_hint_color">(hint)color</string>
+	<string name="ic_elfhint_color">(elfhint)color</string>
+	<string name="ic_example_color">(example)color</string>
+	<string name="ic_title_comic">(title)comic</string>
+	<string name="ic_hint_comic">(hint)comic</string>
+	<string name="ic_elfhint_comic">(elfhint)comic</string>
+	<string name="ic_example_comic">(example)comic</string>
+	<string name="ic_title_ed">(title)ed</string>
+	<string name="ic_hint_ed">(hint)ed</string>
+	<string name="ic_elfhint_ed">(elfhint)ed</string>
+	<string name="ic_example_ed">(example)ed</string>
+	<string name="ic_title_job">(title)job</string>
+	<string name="ic_hint_job">(hint)job</string>
+	<string name="ic_elfhint_job">(elfhint)job</string>
+	<string name="ic_example_job">(example)job</string>
+	<string name="ic_title_toy">(title)toy</string>
+	<string name="ic_hint_toy">(hint)toy</string>
+	<string name="ic_elfhint_toy">(elfhint)toy</string>
+	<string name="ic_example_toy">(example)toy</string>
+	<string name="ic_title_trendy">(title)trendy</string>
+	<string name="ic_hint_trendy">(hint)trendy</string>
+	<string name="ic_elfhint_trendy">(elfhint)trendy</string>
+	<string name="ic_example_trendy">(example)trendy</string>
+	<string name="contactItemsHints">加入你的社交連繫資料, 方便跟你有好感的朋友直接連繫!</string>
+	<string name="saveContactItems">保存</string>
+	<!-- 20140910 -->
+	<!-- drawer - starts -->
+	<string name="drawer_open">Open feature menu</string>
+	<string name="drawer_close">Close feature menu</string>
+	<string-array name="features_array">
+		<item>關於我</item>
+		<item>緣份標簽</item>
+		<item>愛情速配</item>
+		<item>人物</item>
+		<item>聊天室</item>
+	</string-array>
+	<!-- drawer - ends -->
+	<!-- matching - starts -->
+	<string name="sampleMatchingCost">5</string>
+	<string name="sampleMatchingMaxMobility">/100</string>
+	<string name="sampleMatchingUserAliasAge">Ella Koon | 19</string>
+	<string name="sampleMatchingHints">她也喜歡PAD，Facebook，Instagram。她有3個跟你一樣的喜好。</string>
+	<string name="matchingInProgress">準備中</string>
+	<string name="matchingElfHint">❤讓緣份牽引, 邂逅命定要遇見的人! 將第一張愛情速配卡向左滑動, 配對立即開始！❤</string>
+	<string name="he">他</string>
+	<string name="she">她</string>
+	<string name="fullStop">。</string>
+	<string name="comma">，</string>
+	<string name="heHasNInterestsSameAsYou">%1$s有%2$s個跟你一樣的喜好。</string>
+	<string name="heAlsoLikesInterests">%1$s也喜歡%2$s。</string>
+	<string name="heLikesInterests">%1$s喜歡%2$s。</string>
+	<string name="hisHoroscopeIsAlsoZZZ">%1$s跟你一樣都是%2$s。</string>
+	<string name="heIsABoyOfHoroscope">%1$s是%3$s的%2$s生。</string>
+	<string name="matchingSwipeLeftToRightHints">愛情速配卡只能向左滑動！錯過了的緣份不能回復呢！</string>
+	<string name="sampleMatchingUserAlias">Ella Koon</string>
+	<string name="sampleMatchingUserAgeCountryHoroscope">19 | 香港 | 巨蟹</string>
+	<string name="contactFacebook">Facebook</string>
+	<string name="contactLine">LINE</string>
+	<string name="contactWeChat">微信</string>
+	<string name="contactWhatsApp">WhatsApp</string>
+	<string name="contactKakaoTalk">Kakao Talk</string>
+	<string name="contactQQ">QQ</string>
+	<string name="contactWeibo">微博</string>
+	<string name="contactInstagram">Instagram</string>
+	<string name="sampleInterestCount">18</string>
+	<string name="sampleCharisma">9999</string>
+	<string name="sampleFriendCount">288</string>
+	<string name="dialogMatchingMobilityInvite">向%1$s提出交友請求需要消費%2$s點愛心</string>
+	<string name="ok">確定</string>
+	<string name="dialogMatchingInvitationSent">交友請求已發送給</string>
+	<string name="matchingNotEnoughMobility">愛心不足！</string>
+	<string name="dialogMatchingBuyOrWait">還有更多有緣人等待與您相遇哩! 你可選擇購買愛心，或等待每晚00:00 (香港時間) 自動回復, 繼續尋找有緣人!</string>
+	<string name="buy">購買</string>
+	<string name="wait">等待</string>
+	<string name="sendingFriendRequest">正在發送交友請求</string>
+	<!-- matching - ends -->
+	<!-- people - starts -->
+	<string name="friends">朋友</string>
+	<string name="peopleLoverRequestElfHintPre">您已發送了</string>
+	<string name="peopleLoverRequestElfHintPost">個等待回應交友請求, 只要對方接受邀請, 即可成為朋友, 聊天室隨即開啓!</string>
+	<string name="peopleLoverInvitationElfHintPre">您收到了</string>
+	<string name="peopleLoverInvitationElfHintPost">個交友邀請,  只需按一下對方卡片並接受邀請, 聊天室隨即開啓!</string>
+	<string name="peopleFriendsElfHintPre">您在恋愛白書已認識了</string>
+	<string name="peopleFriendsElfHintPost">名朋友! 繼續努力吧! 對的人可能就在其中! </string>
+	<string name="today">今日</string>
+	<string name="year">年</string>
+	<string name="month">月</string>
+	<string name="day">日</string>
+	<string name="shortMonth1">Jan</string>
+	<string name="shortMonth2">Feb</string>
+	<string name="shortMonth3">Mar</string>
+	<string name="shortMonth4">Apr</string>
+	<string name="shortMonth5">May</string>
+	<string name="shortMonth6">Jun</string>
+	<string name="shortMonth7">Jul</string>
+	<string name="shortMonth8">Aug</string>
+	<string name="shortMonth9">Sep</string>
+	<string name="shortMonth10">Oct</string>
+	<string name="shortMonth11">Nov</string>
+	<string name="shortMonth12">Dec</string>
+	<!-- people - ends -->
+	<!-- 20140925 -->
+	<string name="hintEditConfirmEmail">請確定電郵地址</string>
+	<string name="hintConfirmEmailNotMatch">輸入電郵地址不符</string>
+	<string name="sampleUserNoOfKisses">6789</string>
+	<string name="action_trust">Kiss</string>
+	<string name="action_chat">對話</string>
+	<string name="action_delete">刪除</string>
+	<string name="sampleMatchingUserAgeCountry">19 | 香港</string>
+	<string name="textHintsMatchingCharismaText">魅力為</string>
+	<string name="textHintsMatchingAddCostTextPre">提出交友請求需要</string>
+	<string name="textHintsMatchingAddCostTextPost1">點</string>
+	<string name="textHintsMatchingAddCostTextPost2">愛心</string>
+	<string name="loverRequest">我的請求</string>
+	<string name="loverInvitation">交友邀請</string>
+	<string name="hisInvitation">他的邀請</string>
+	<string name="herInvitation">她的邀請</string>
+	<string name="friendList">朋友列表</string>
+	<string name="dialogAskAcceptInvitation">接受邀請？</string>
+	<string name="rejectInvitation">拒絕邀請</string>
+	<string name="acceptInvitation">接受邀請</string>
+	<string name="notificationNewFriendsTitle">新朋友</string>
+	<string name="notificationNewFriendsText">你有 %1$s 個新朋友</string>
+	<string name="notificationNewInvitationsTitle">新交友請求</string>
+	<string name="notificationNewInvitationsText">你有 %1$s 個新交友請求</string>
+	<string name="notificationNewMessagesTitle">新聊天訊息</string>
+	<string name="notificationNewMessagesText">有 %1$s 個朋友給您發送新訊息</string>
+	<!-- 20141014 -->
+	<string name="intimacy">親密度</string>
+	<!-- 20141024 -->
+	<string name="region_name_hk_central_and_western">中西區</string>
+	<string name="region_name_hk_eastern">東區</string>
+	<string name="region_name_hk_southern">南區</string>
+	<string name="region_name_hk_wan_chai">灣仔區</string>
+	<string name="region_name_hk_kowloon_city">九龍城區</string>
+	<string name="region_name_hk_sham_shui_po">深水埗區</string>
+	<string name="region_name_hk_yau_tsim_mong">油尖旺區</string>
+	<string name="region_name_hk_wong_tai_sin">黃大仙區</string>
+	<string name="region_name_hk_kwun_tong">觀塘區</string>
+	<string name="region_name_hk_north">北區</string>
+	<string name="region_name_hk_sai_kung">西貢區</string>
+	<string name="region_name_hk_sha_tin">沙田區</string>
+	<string name="region_name_hk_tai_po">大埔區</string>
+	<string name="region_name_hk_islands">離島區</string>
+	<string name="region_name_hk_kwai_tsing">葵青區</string>
+	<string name="region_name_hk_tsuen_wan">荃灣區</string>
+	<string name="region_name_hk_tuen_mun">屯門區</string>
+	<string name="region_name_hk_yuen_long">元朗區</string>
+	<string name="region_name_tw_tpq">台北</string>
+	<string name="region_name_tw_new_tpq">新北</string>
+	<string name="region_name_tw_txq">台中</string>
+	<string name="region_name_tw_tnq">台南</string>
+	<string name="region_name_tw_khq">高雄</string>
+	<string name="region_name_tw_keelung">基隆</string>
+	<string name="region_name_tw_hsq">新竹</string>
+	<string name="region_name_tw_cyq">嘉義</string>
+	<string name="region_name_tw_tao">桃園縣</string>
+	<string name="region_name_tw_hsq_country">新竹縣</string>
+	<string name="region_name_tw_mia">苗栗縣</string>
+	<string name="region_name_tw_cha">彰化縣</string>
+	<string name="region_name_tw_nan">南投縣</string>
+	<string name="region_name_tw_yun">雲林縣</string>
+	<string name="region_name_tw_cyq_country">嘉義縣</string>
+	<string name="region_name_tw_pif">屏東縣</string>
+	<string name="region_name_tw_ila">宜蘭縣</string>
+	<string name="region_name_tw_hua">花蓮縣</string>
+	<string name="region_name_tw_ttt">臺東縣</string>
+	<string name="region_name_tw_pen">澎湖縣</string>
+	<string name="region_name_tw_kinmen">金門縣</string>
+	<string name="region_name_tw_lienchiang">連江縣</string>
+	<string name="kissingWith">正在把四葉草傳送給 %1$s </string>
+	<string name="kissedWith">傳送成功</string>
+	<string name="notAbleToReadYetShareContactInfoWithUserFirst">連繫資料只會在互有好感的情況下顯示 ! 當您收到女生表示好感的四葉草, 然後確認, 即可獲得對方的連繫資料!</string>
+	<string name="notAbleToReadYetAskUserToShareContactInfoFirst">連繫資料只會在互有好感的情況下顯示 ! 請先把四葉草送給對方, 表達對他垂青的心意吧</string>
+	<string name="facebookIdCopied">已複製 Facebook ID</string>
+	<string name="lineIdCopied">已複製  LINE ID</string>
+	<string name="weChatIdCopied">已複製  微信 ID</string>
+	<string name="whatsAppIdCopied">已複製  WhatsApp ID</string>
+	<string name="kakaoTalkIdCopied">已複製  Kakao Talk ID</string>
+	<string name="qqIdCopied">已複製  QQ ID</string>
+	<string name="weiboIdCopied">已複製  微博 ID</string>
+	<string name="instagramIdCopied">已複製  Instagram ID</string>
+	<string name="viewContactItemsElfHint">加入你的社交連繫方法, 方便分享給你有好感的朋友! </string>
+	<!-- 20141111 -->
+	<string name="urlPrivacyTerms">http://www.lovememoire.com/privacy.html</string>
+	<string name="urlUserTerms">http://www.lovememoire.com/tc.html</string>
+	<string name="occupation_name_student">學生</string>
+	<string name="occupation_name_nurse">護士</string>
+	<string name="occupation_name_care">看護</string>
+	<string name="occupation_name_photographer">攝影師</string>
+	<string name="occupation_name_model">模特兒</string>
+	<string name="occupation_name_flight_attendants">空中服務員</string>
+	<string name="occupation_name_actor">演員</string>
+	<string name="occupation_name_singer">歌手</string>
+	<string name="occupation_name_writers">作家</string>
+	<string name="occupation_name_music">音樂人</string>
+	<string name="occupation_name_dj">DJ</string>
+	<string name="occupation_name_dancers">舞蹈員</string>
+	<string name="occupation_name_baristas">咖啡調配師</string>
+	<string name="occupation_name_bartender">調酒師</string>
+	<string name="occupation_name_chef">廚師</string>
+	<string name="occupation_name_tattooists">紋身師</string>
+	<string name="occupation_name_beautician">美容師</string>
+	<string name="occupation_name_hair_stylist">髮型師</string>
+	<string name="occupation_name_makeup_artist">化妝師</string>
+	<string name="occupation_name_pilots">飛機師</string>
+	<string name="occupation_name_magician">魔術師</string>
+	<string name="occupation_name_diviner">占卜師</string>
+	<string name="occupation_name_feng_shui_master">風水師</string>
+	<string name="occupation_name_designers">設計師</string>
+	<string name="occupation_name_lawyer">律師</string>
+	<string name="occupation_name_accountants">會計師</string>
+	<string name="occupation_name_pharmacist">藥劑師</string>
+	<string name="occupation_name_architects">建築師</string>
+	<string name="occupation_name_kindergarten_teacher">幼稚園教師</string>
+	<string name="occupation_name_primary_school_teachers">小學教師</string>
+	<string name="occupation_name_secondary_school_teachers">中學教師</string>
+	<string name="occupation_name_professor">大學教授</string>
+	<string name="occupation_name_engineer">工程師</string>
+	<string name="occupation_name_it_engineer">電子工程師</string>
+	<string name="occupation_name_programmers">程式員</string>
+	<string name="occupation_name_doctors">醫生</string>
+	<string name="occupation_name_dentist">牙科醫生</string>
+	<string name="occupation_name_veterinarian">獸醫</string>
+	<string name="occupation_name_dog_trainer">犬隻訓練員</string>
+	<string name="occupation_name_reporter">記者</string>
+	<string name="occupation_name_police">警察</string>
+	<string name="occupation_name_firemen">消防員</string>
+	<string name="occupation_name_civil">公務員</string>
+	<string name="occupation_name_sales">銷售員</string>
+	<string name="occupation_name_administrative_staff">行政人員</string>
+	<string name="occupation_name_customer_service">客戶服務員</string>
+	<string name="occupation_name_enterpreneur">實業家</string>
+	<string name="occupation_name_politicians">政治家</string>
+	<string name="occupation_name_artists">藝術家</string>
+	<string name="occupation_name_cartoonist">漫畫家</string>
+	<string name="occupation_name_athletes">運動員</string>
+	<string name="occupation_name_peddler">小販</string>
+	<string name="occupation_name_driver">司機</string>
+	<string name="occupation_name_interpreters">翻譯員</string>
+	<string name="occupation_name_waiter">侍應</string>
+	<string name="occupation_name_workers">工人</string>
+	<string name="occupation_name_soldier">軍人</string>
+	<string name="occupation_name_scientist">科學家</string>
+	<string name="occupation_name_postman">郵差</string>
+	<string name="occupation_name_farmer">農夫</string>
+	<string name="occupation_name_fisherman">漁夫</string>
+	<string name="occupation_name_unemployed">待業</string>
+	<string name="hasNotSharedAnyContactItems">對方暫時沒有輸入任何社交連繫資料哦!</string>
+	<string name="dialogProfileToKiss">把四葉草送給對方, 代表您對他很有好感! 只要對方確認, 即可獲得對方的連繫資料, 直接聯絡!</string>
+	<string name="reject">拒絕</string>
+	<string name="rejectKissingWith">正在拒絕與 %1$s 交換社交連繫資料的要求</string>
+	<string name="femaleKissingMessage">❤ 我對您很有好感! 可以取得你的社交連繫方法, 直接聯絡嗎? ❤</string>
+	<string name="maleKissingMessage">❤ 謝謝妳的垂青! 讓我們在其他社交平台繼續聯絡吧! ❤</string>
+	<string name="maleKissingRejectMessage">對不起! 我暫時不想與你交換社交連繫資料, 先在聊天室再了解一下吧!</string>
+	<string name="kissRejectedWith">已拒絕與 %1$s 交換社交連繫資料</string>
+	<string name="purchase">購買</string>
+	<string name="purchaseInProgress">正在處理中</string>
+	<!-- 20150313 -->
+	<string name="action_unfriend">刪除好友</string>
+	<string name="unfriendingWith">準備刪除 %1$s</string>
+	<string name="dialogProfileToUnfriend">刪除聊天室需要扣減 5點 行動力哩! 確定要刪除 %1$s 嗎?</string>
+	<string name="unfriendedWith">已刪除 %1$s</string>
+	<string name="notEnoughMobilityToUnfriendWith">行動力不足！未能刪除 %1$s！請等待行動力回復後再試。</string>
+	<!-- 20150408 -->
+	<string name="forgetPasswordEmailSubject">忘記密碼</string>
+	<string name="forgetPasswordEmailContentDear">您好%1$s</string>
+	<string name="forgetPasswordEmailContentPasswordPre">你的驗證碼為</string>
+	<string name="forgetPasswordEmailContentPasswordPost">, 請於應用內輸入驗證碼, 然後重設密碼, 謝謝</string>
+	<string name="forgetPasswordEmailContentLovememoireTeam">戀愛白書團隊 上</string>
+	<!-- 20150417 -->
+	<string name="pref_title_notifications">提醒</string>
+	<string name="pref_title_notifications_sound">聲音</string>
+	<string name="pref_title_lm_language">語言</string>
+	<string name="pref_language_default">AUTO</string>
+	<string name="pref_title_change_pwd">重設密碼</string>
+	<string name="changePasswordElfHint">重設密碼</string>
+	<string name="hintEditCurrentPassword">請輸入原有密碼</string>
+	<string name="changePasswordContinue">重設密碼</string>
+	<string name="changingPassword">正在重設密碼</string>
+	<string name="changePasswordDone">已重設密碼</string>
+	<string name="changePasswordErrorPleaseTryAgain">重設密碼失敗！</string>
+</resources>
