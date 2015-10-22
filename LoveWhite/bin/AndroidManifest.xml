@@ -7,7 +7,11 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/lm_icon"
@@ -22,6 +26,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity  android:name="com.ljppff.LoveWhite.GuideActivity"></activity>
+        <activity android:name="com.ljppff.LoveWhite.PersonDangDetailActivity"></activity>
+        <activity 
+            android:name="com.ljppff.LoveWhite.LianXiActivity"
+            ></activity>
+        <activity             android:name="com.ljppff.LoveWhite.SignUp1Activity"
+            ></activity>
+        <activity             android:name="com.ljppff.LoveWhite.SignUp2Activity"
+            ></activity>
+        <activity android:name="com.ljppff.LoveWhite.PersonDangActivity"></activity>
+        <activity android:name="com.ljppff.LoveWhite.PersonDangEditActivity"></activity>
+        
     </application>
 
 </manifest>

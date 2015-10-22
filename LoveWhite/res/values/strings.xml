@@ -282,7 +282,8 @@ Fishery workers, hunters and trappers																		<string name="stdInterest
 	<string name="editContactItemsElfHint">
 		<![CDATA[輸入個人的社交連繫方法，透過互相送贈<font color="#ff00cc">四葉草</font>表達互有好感的心意, 即可獲得對方的連繫資料, 直接聯絡！]]>
 	</string>
-	<string name="editContactFacebook">Facebook</string>
+	<string name="editContactItemsElfHint1">輸入個人的社交連繫方法，透過互相送贈四葉草表達互有好感的心意, 即可獲得對方的連繫資料, 直接聯絡！</string>
+		<string name="editContactFacebook">Facebook</string>
 	<string name="editContactLine">LINE</string>
 	<string name="editContactWeChat">微信</string>
 	<string name="editContactWhatsApp">WhatsApp</string>
@@ -580,4 +581,17 @@ Fishery workers, hunters and trappers																		<string name="stdInterest
 	<string name="changingPassword">正在重設密碼</string>
 	<string name="changePasswordDone">已重設密碼</string>
 	<string name="changePasswordErrorPleaseTryAgain">重設密碼失敗！</string>
+	<string name="ddd">连系</string>
+	<string name="ddd1">个人档案</string>
+	<string name="ddd2">邀請碼</string>
+	<string name="ddd3">设定你的真实头像</string>
+	<string name="ddd4">继续</string>
+	<string name="ddd5">她的请求</string>
+	<string name="ddd6">我的请求</string>
+	<string name="ddd7">朋友列表</string>
+	<string name="ddd8">您收到了0个交友邀请，只需按一下对方卡片并接受邀请，聊天室随即开启</string>
+		<string name="ddd9">接收邀请</string>
+		<string name="ddd10">拒绝邀请</string>
+		<string name="ddd11">修改</string>
+				
 </resources>

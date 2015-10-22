@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:background="@drawable/aa"
+        android:background="?android:attr/activatedBackgroundIndicator"
+    
   >
 
 
@@ -12,16 +13,17 @@
         android:layout_height="45dp"
         android:layout_centerVertical="true"
         android:src="@drawable/menu_myprofile_icon_c"/>
-    <TextView
-        android:id="@+id/tvName"
-        android:layout_toRightOf="@id/ivThumb" 
-          android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="白起"
-        android:layout_marginLeft="15dp"
-        android:layout_centerVertical="true"
-        android:textSize="20sp"
-        />
+    
+    <TextView 
+    android:id="@+id/tvName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:paddingLeft="8dp"
+      android:layout_toRightOf="@id/ivThumb" 
+    android:textColor="#000"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"/>
 
 
 </RelativeLayout>
