@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mRlcg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+         <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mRlwww1"
+        >
+                 <View 
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/green"
+                    android:id="@+id/mV1"
+                    />
+             
+       <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_centerInParent="true"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_below="@id/mV1"
+                android:background="@color/blue"
+                android:orientation="horizontal" >
+                        
+                           <View 
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/green"
+                    />
+           
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/rbs"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="@string/ddd5"
+                    android:textColor="@color/wp_text_selector1"
+                    android:textSize="22sp" />
+                <View 
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/green"
+                    />
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/rbs"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/ddd6"
+                    android:textColor="@color/wp_text_selector1"
+                    android:textSize="22sp" /> 
+                <View 
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/green"
+                    />
+               <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/rbs"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/ddd7"
+                    android:textColor="@color/wp_text_selector1"
+                    android:textSize="22sp" /> 
+                                <View 
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/green"
+                    />
+                
+           
+                
+            </RadioGroup>
+         <View 
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/green"
+                    android:layout_below="@id/rg1"
+                    />
+        </RelativeLayout>   <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/mRlwww1" />
+</RelativeLayout>

@@ -1,0 +1,323 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/gray1"
+    android:layout_height="fill_parent"
+  >
+  
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mRlw2"
+        android:background="@drawable/mytitle"
+        >
+            <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/mRlw1"
+        android:background="@color/red"
+        >
+        
+                <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mIv1"
+            android:src="@drawable/action_drawerbtn"
+            />
+        
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/mIv1"
+            android:layout_height="wrap_content"
+               android:id="@+id/mIv2"
+            android:src="@drawable/action_heart"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mIv2"
+            android:text="@string/ddd"
+            android:textColor="@color/white"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    
+    <ScrollView 
+                android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"        android:layout_below="@id/mRlw2"
+        android:background="@color/gray1"
+        
+        >
+        <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray1"
+        >
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/mLLw2"
+        android:orientation="horizontal"
+        android:background="@drawable/people_elftalk"
+        >
+            
+            <View 
+                android:layout_weight="3"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                />
+                <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <TextView 
+                                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="@string/editContactItemsElfHint1"
+                android:textColor="@color/black"
+                />
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            
+
+            </LinearLayout>
+            <View 
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                />
+            
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_below="@id/mLLw2"
+        >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:background="@color/white"      android:orientation="horizontal"
+            
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                
+                android:drawableLeft="@drawable/matching_facebook"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                <LinearLayout 
+                    android:layout_marginTop="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="LINE"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_line"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt2"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                <LinearLayout 
+            android:layout_width="fill_parent"    android:layout_marginTop="2dp"
+            android:layout_height="wrap_content"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="微信"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_wechat"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt3"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                        <LinearLayout 
+            android:layout_width="fill_parent"    android:layout_marginTop="2dp"
+            android:layout_height="wrap_content"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_whatsapp"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt4"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"    android:layout_marginTop="2dp"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kakao Talk"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_kktalk"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt5"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                           <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"    android:layout_marginTop="2dp"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="QQ"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_qq"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt6"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                                <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"    android:layout_marginTop="2dp"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="微博"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_weibo"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt7"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                               <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"    android:layout_marginTop="2dp"
+           android:background="@color/white"      android:orientation="horizontal"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Instagram"
+                                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+
+                android:drawableLeft="@drawable/matching_insta"
+                />
+            <EditText 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mEt8"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+                                
+        
+    </LinearLayout>
+    
+    
+    
+    </RelativeLayout>
+    
+    </ScrollView>
+                <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:id="@+id/mRlw3"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="@string/saveData"
+            android:textColor="@color/white"
+            />
+        </RelativeLayout>
+    
+    
+</RelativeLayout>

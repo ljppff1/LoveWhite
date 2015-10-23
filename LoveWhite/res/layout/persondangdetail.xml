@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@drawable/people_bkgd"
+    android:layout_height="fill_parent"
+  >
+  
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/mRlw2"
+        android:background="@color/red"
+        >
+            <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/mRlw1"
+        android:background="@color/red"
+        >
+        
+                <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mIv1"
+            android:src="@drawable/action_drawerbtn"
+            />
+        
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/mIv1"
+            android:layout_height="wrap_content"
+               android:id="@+id/mIv2"
+            android:src="@drawable/action_heart"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mIv2"
+            android:text="@string/ddd1"
+            android:textColor="@color/white"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    
+    
+    
+   
+        <RelativeLayout             
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mRlw2"
+        >
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:id="@+id/mLLw2"
+        android:orientation="horizontal"
+        android:background="@drawable/people_elftalk"
+        >
+            
+            <View 
+                android:layout_weight="3"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                />
+                <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <TextView 
+                                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:id="@+id/mTv1"
+                android:text="@string/editContactItemsElfHint1"
+                android:textColor="@color/black"
+                />
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            
+
+            </LinearLayout>
+            <View 
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                />
+            
+    </LinearLayout>
+   
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/mRl4"
+             android:layout_below="@id/mLLw2"
+             android:background="@color/white"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginTop="12dp"
+             android:layout_marginBottom="12dp"
+        >
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/mRlo1"
+                >
+         <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/fav_game"  android:layout_centerVertical="true"
+             android:layout_marginLeft="15dp"
+             android:id="@+id/mIv4"
+             />
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/mIv4"
+             android:text="asdfajwoefp"
+             android:layout_marginLeft="10dp"
+             android:layout_centerVertical="true"
+             />
+         </RelativeLayout>
+                     <RelativeLayout 
+                         android:layout_below="@id/mRlo1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                >
+          <ImageView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/profile_addcontact_click"  android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:id="@+id/mIv3"
+             android:layout_marginRight="10dp"
+             />
+          <EditText 
+              android:layout_toLeftOf="@id/mIv3"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="8dp"
+              />
+            </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+   android:layout_below="@id/mRl4"
+        android:paddingLeft="10dp"
+        android:background="@color/white"
+        android:paddingRight="10dp"
+        >
+     <ListView 
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:id="@+id/mLv1"       
+           android:divider="#00000000"
+         ></ListView>
+    </RelativeLayout>
+    
+    </RelativeLayout>
+  
+                
+    
+    
+</RelativeLayout>

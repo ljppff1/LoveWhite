@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item >关于我</item>
+        <item >缘份标签</item>
+        <item >爱情速配</item>
+        <item >选择</item>
+        <item >心情</item>
+        <item >频道</item>
+        <item >人物</item>
+                <item >聊天室</item>
+        </string-array>
+</resources>

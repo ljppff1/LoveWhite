@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@color/gray1"
+    android:layout_height="fill_parent"
+  >
+  
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mRlw2"
+        android:background="@drawable/mytitle"
+        >
+            <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/mRlw1"
+        android:background="@color/red"
+        >
+        
+                <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mIv1"
+            android:src="@drawable/action_drawerbtn"
+            />
+        
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/mIv1"
+            android:layout_height="wrap_content"
+               android:id="@+id/mIv2"
+            android:src="@drawable/action_heart"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/mIv2"
+            android:text="@string/ddd"
+            android:textColor="@color/white"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+                android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"    
+         
+           android:layout_below="@id/mRlw2"
+        android:background="@color/gray1"
+        
+        >
+       
+          
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/mLLw2"
+        android:orientation="horizontal"
+        android:background="@drawable/people_elftalk"
+        >
+            
+            <View 
+                android:layout_weight="3"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                />
+                <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <TextView 
+                                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:id="@+id/mTv1"
+                android:text="@string/ddd3"
+                android:textColor="@color/black"
+                />
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            
+
+            </LinearLayout>
+            <View 
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                />
+            
+    </LinearLayout>
+        
+                                
+                        <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:id="@+id/mRlw3"
+      android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:text="@string/ddd4"
+            android:textColor="@color/white"
+            />
+        </RelativeLayout>
+    
+                        <RelativeLayout 
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_above="@id/mRlw3"
+                            android:background="@color/white"
+                            android:layout_below="@id/mLLw2"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            >
+                            
+                            <ImageView 
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:id="@+id/mIv3"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/profilesetup_photo"
+                                />
+                            
+                        </RelativeLayout>
+    </RelativeLayout>
+    
+    
+    
+</RelativeLayout>
