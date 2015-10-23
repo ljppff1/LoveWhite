@@ -137,12 +137,20 @@
         android:background="@color/white"
         android:paddingRight="10dp"
         >
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp"
+                android:background="@color/gray_2"
+                >
      <ListView 
          android:layout_width="fill_parent"
          android:layout_height="fill_parent"
-         android:id="@+id/mLv1"       
+         android:id="@+id/mLv1"           android:layout_margin="10dp"
            android:divider="#00000000"
+           android:dividerHeight="1dp"
          ></ListView>
+     </RelativeLayout>
     </RelativeLayout>
     
     </RelativeLayout>
